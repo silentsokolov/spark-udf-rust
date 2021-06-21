@@ -6,7 +6,7 @@ This repo is an example (and template) for using the Rust language to write Spar
 
 ### WTF?
 
-Ok, I know this is not the best solution and rather Scala or Java should be used. But the JVM world is very big (_for me .. and I like Rust_). I use Python in my job and sometimes Python UDFs are slow that's why this project was born.
+Ok, I know this is not the best solution and rather Scala or Java should be used. But the JVM world is very big (_for me_). I use Python in my job and sometimes Python UDFs are slow that's why this project was born. I am very excited about projects like datafusion, ballista, polars but they are not ready for production.
 
 # Usage Notes
 
