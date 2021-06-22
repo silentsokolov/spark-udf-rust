@@ -62,8 +62,10 @@ You can also use this repo to automatically create a jar with Github Action. Jus
 
 # Benchmark
 
+[Jupyter Notebook](https://github.com/silentsokolov/spark-udf-rust/blob/main/.docs/benchmark.ipynb)
+
 ```
-python: 15.3 s ± 396 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
-native: 8.98 s ± 375 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
-rust: 7.84 s ± 340 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+native: 7 s ± 197 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+rust: 7.66 s ± 459 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+python: 14 s ± 310 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
