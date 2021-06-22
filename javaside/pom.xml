@@ -6,7 +6,7 @@
   <groupId>com.github.silentsokolov</groupId>
   <artifactId>javaside</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <name>javaside</name>
   <url>https://github.com/silentsokolov/spark-udf-rust</url>
@@ -79,4 +79,12 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/silentsokolov/spark-udf-rust</url>
+    </repository>
+  </distributionManagement>
 </project>

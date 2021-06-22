@@ -46,6 +46,9 @@ java_package:
 java_compile:
 	mvn -f $(JAVA_SIDE_PATH)/pom.xml clean compile
 
+java_deploy:
+	mvn --batch-mode -f $(JAVA_SIDE_PATH)/pom.xml deploy
+
 copy_jar:
 	$(eval jarfile := $(shell find "$(JAVA_SIDE_PATH)/target" -type f -name "*.jar" -print0 -quit | xargs -0 -n1 basename))
 	mkdir -p "$(DIST_DIR)"
